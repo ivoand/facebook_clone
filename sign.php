@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
     <div class="header"></div>
@@ -14,8 +17,8 @@
         </div>
         <div class="right-side">
             <div class="error"></div>
-            <h1>Create an account</h1>
-            <div>It's free and always will be</div>
+            <h1 style="color:#212121">Create an account</h1>
+            <div style="color:#212121; font-size:20px;">It's free and always will be</div>
             <form action="sign.php" method="post" name="user-sign-up">
                 <div class="sing-up-form">
                     <div class="sing-up-name">
@@ -51,4 +54,6 @@
         </div>
 
     </div>
+    
+</body>
 </html>
